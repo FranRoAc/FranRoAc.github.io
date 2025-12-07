@@ -22,7 +22,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "Research.md", title: "Research", sidebaricon: home}
   - {file: "Teaching.md", title: "Teaching", sidebaricon: address-card}
   - {title: "CV", url: "/fran.pdf"}
-  - {title: "En español?", url: "/fran.pdf"}
+  - {title: "En espanol?", url: "/fran.pdf"}
   # - {file: "CV_Romero.pdf", title: "CV"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
