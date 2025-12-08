@@ -10,37 +10,20 @@ body,
 header,
 footer,
 nav {
-  background-color: #001f3f !important; /* navy blue */
+  background-color: #001f3f !important; /* navy */
   color: #ffffff !important;           /* white text */
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important;
-}
-
-/* Paragraphs and other text elements */
+h1, h2, h3, h4, h5, h6,
 p, li, span, div {
   color: #ffffff !important;
 }
 
-/* Links */
 a, nav a, footer a, .sidebar a, button, input[type="submit"] {
   color: #ffffff !important;
-  text-decoration-color: currentColor !important;
 }
 
-/* Code blocks */
 code, pre, .highlight {
-  background-color: #001733 !important; /* darker navy for contrast */
-  color: #ffffff !important;
-  border-radius: 4px;
-  padding: 2px 4px;
-}
-
-/* Buttons and input fields */
-button, input, textarea {
   background-color: #001733 !important;
   color: #ffffff !important;
-  border-color: #ffffff !important;
 }
