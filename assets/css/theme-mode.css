@@ -1,0 +1,95 @@
+---
+---
+/* ============================ */
+/* Light/Dark Mode Full Override */
+/* ============================ */
+
+/* Default Light Mode */
+:root {
+  color-scheme: light;
+}
+
+/* ----------------- */
+/* Light Mode Styles */
+/* ----------------- */
+body,
+.post-content,
+.frame,
+.sidebar,
+.content,
+.container,
+header,
+footer,
+nav,
+button,
+input,
+textarea {
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important; /* optional: borders */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: black !important;
+}
+
+/* Links */
+a, nav a, footer a, .sidebar a, button, input[type="submit"] {
+  color: #1a0dab !important; /* standard blue in light mode */
+  text-decoration-color: currentColor !important;
+}
+
+/* Code blocks */
+code, pre, .highlight {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* Buttons and inputs */
+button, input, textarea {
+  background-color: #f0f0f0 !important;
+  color: black !important;
+}
+
+/* ----------------- */
+/* Dark Mode Styles  */
+/* ----------------- */
+@media (prefers-color-scheme: dark) {
+  body,
+  .post-content,
+  .frame,
+  .sidebar,
+  .content,
+  .container,
+  header,
+  footer,
+  nav,
+  button,
+  input,
+  textarea {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+    border-color: #333 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #f5f5f5 !important;
+  }
+
+  a, nav a, footer a, .sidebar a, button, input[type="submit"] {
+    color: #1e90ff !important; /* bright link color in dark mode */
+  }
+
+  code, pre, .highlight {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+  }
+
+  button, input, textarea {
+    background-color: #1a1a1a !important;
+    color: #f5f5f5 !important;
+  }
+}
