@@ -1,0 +1,41 @@
+---
+---
+/* Fixed background and text colors */
+body,
+.post-content,
+.frame,
+.sidebar,
+.content,
+.container,
+header,
+footer,
+nav {
+  background-color: #001f3f !important; /* navy blue */
+  color: #ffffff !important; /* white text */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Links */
+a, nav a, footer a, .sidebar a, button, input[type="submit"] {
+  color: #1e90ff !important; /* light blue links */
+  text-decoration-color: currentColor !important;
+}
+
+/* Code blocks */
+code, pre, .highlight {
+  background-color: #003366 !important; /* darker blue for contrast */
+  color: #ffffff !important;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* Buttons and inputs */
+button, input, textarea {
+  background-color: #00264d !important; /* slightly darker navy */
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
