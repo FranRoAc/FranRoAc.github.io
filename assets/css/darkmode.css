@@ -1,0 +1,52 @@
+---
+---
+/* -------------------- */
+/* Light mode (default) */
+/* -------------------- */
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: white !important;
+  color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li, span, div {
+  color: black !important;
+}
+
+a {
+  color: #1a0dab !important; /* standard link color in light mode */
+}
+
+/* Optional: code blocks */
+code, pre {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+}
+
+/* -------------------- */
+/* Dark mode             */
+/* -------------------- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  p, li, span, div {
+    color: #f5f5f5 !important;
+  }
+
+  a {
+    color: #1e90ff !important; /* bright link color for dark mode */
+  }
+
+  code, pre {
+    background-color: #1e1e1e !important;
+    color: #f5f5f5 !important;
+  }
+}
