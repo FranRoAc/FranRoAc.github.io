@@ -5,7 +5,7 @@ title: ""
 
 <div style="display: flex; align-items: flex-start; gap: 25px;">
 
-  <img src="franpic.jpg"
+  <img src="foto2.jpeg"
        alt="Francisco Romero"
        style="width:250px; border-radius:8px; flex-shrink: 0;">
 
